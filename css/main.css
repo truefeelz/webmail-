@@ -1,0 +1,84 @@
+
+#modal-message{
+	min-width:700px;
+}
+
+
+.mailbox-info{
+	margin:1.5rem 0;
+}
+
+.content{
+	margin:1.5rem 0;
+}
+
+.nav-link-custom,#user-log{
+	color:#ffffff;
+}
+
+.nav-link-logout{
+	color:red;
+}
+
+.user-login{
+	color:rgb(252, 39, 39);
+}
+
+.danger{
+	color:red;
+}
+.success{
+	color:green;
+}
+
+.visible-xs {
+  display: none;
+}
+
+.ico-delete:hover{
+  opacity: 0.6;
+}
+
+#new-mail{
+  display:none;
+}
+
+@media screen and (max-width:998px){
+  .new-message{
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  #modal-message{
+    min-width:auto;
+  }
+  .visible-xs {
+    display: table-row;
+    background: #efefef;
+  }
+  .visible-xs td, th {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  td:nth-child(4),
+  th:nth-child(4),
+  td:first-child,
+  th:first-child {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 370px) {
+
+  td,th{
+    font-size:14px;
+  }
+  .btn-action{
+    padding: .14rem .2rem;
+  }
+
+
+}
